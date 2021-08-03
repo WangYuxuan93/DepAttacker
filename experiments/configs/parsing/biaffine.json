@@ -1,0 +1,39 @@
+{
+  "model": "Biaffine",
+  "input": {
+    "word_dim": 100,
+    "pos_dim": 100,
+    "char_dim": 100,
+    "use_pos": false,
+    "use_char": false
+  },
+  "biaffine":{
+    "arc_mlp_dim": 500,
+    "rel_mlp_dim": 100,
+    "p_in": 0.33,
+    "p_out": 0.33,
+    "loss_interpolation": 0.5,
+    "activation": "leaky_relu",
+    "minimize_logp": false
+  },
+  "input_encoder": {
+    "name": "FastLSTM",
+    "num_layers": 3,
+    "num_attention_heads": 4,
+    "hidden_size": 400,
+    "intermediate_size": 800,
+    "lan_emb_size": 0,
+    "lan_emb_as_input": false,
+    "hidden_act": "gelu",
+    "dropout_type": "seq",
+    "p_rnn": [0.33, 0.33],
+    "embedding_dropout_prob": 0.33,
+    "hidden_dropout_prob": 0.2,
+    "inter_dropout_prob": 0.1,
+    "attention_probs_dropout_prob": 0.1,
+    "use_input_layer": true,
+    "use_sin_position_embedding": false,
+    "freeze_position_embedding": false,
+    "initializer": "default"
+  }  
+}
