@@ -4,6 +4,8 @@ This is the code we used in the following paper
 >[A Closer Look into the Robustness of Neural Dependency Parsers
 Using Better Adversarial Examples](https://aclanthology.org/2021.findings-acl.207.pdf)
 
+>Yuxuan Wang, Wanxiang Che, Ivan Titov, Shay B. Cohen, Zhilin Lei, Ting Liu
+
 >Findings of ACL 2021
 
 
@@ -83,5 +85,9 @@ To train a Deep BiAffine parser, simply run
 But, remember to setup "add_path" for adding adversarial sample. (you can
  find  adversarial gold samples after you run "adversarial attacking")
 
-
+## Thanks
+Thanks to Ma et al. The implementation is based on the dependency parser by Ma
+ et al
+. (2018
+) (https://github.com/XuezheMax/NeuroNLP2) and reuses part of its code.
  
