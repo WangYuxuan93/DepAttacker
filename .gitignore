@@ -108,7 +108,6 @@ ENV/
 
 # log dir
 /experiments/log/
-experiments/scripts
 
 # test dir
 /tests/
