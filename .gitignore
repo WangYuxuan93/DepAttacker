@@ -120,6 +120,4 @@ ENV/
 
 adversary/data
 adversary/output
-adversary/scripts
-adversary/config
 *.DS_Store

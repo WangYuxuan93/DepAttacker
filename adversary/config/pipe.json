@@ -1,0 +1,25 @@
+{
+  "biaffine-glove-v400-666-all-black-ptb-test-0.15-v0": {
+    "ndigit": "",
+    "ens": "",
+    "seed": 666,
+    "tagger": "stanford",
+    "parser": "/users7/zllei/exp_data/models/parsing/PTB/biaffine/glove-666:/users7/zllei/exp_data/models/parsing/PTB/biaffine/glove-777",
+    "mode": "black",
+    "use_random": "",
+    "use_pretrain": " --use_pretrained_static ",
+    "lm": "none",
+    "lm_path": "/users2/yxwang/work/data/models/roberta-base",
+    "use_elmo": "",
+    "elmo_path": "/users2/yxwang/work/data/models/elmo",
+    "generator": "sememe:synonym:embedding:mlm",
+    "filter": "word_sim:lm:grammar",
+    "wsim": 0.7,
+    "ssim": 0.95,
+    "max_knn": 50,
+    "rel_ratio": 0.5,
+    "flu_ratio": 0,
+    "max_mod_percent": 0.15,
+    "ppl_diff_thres": 20.0
+  }
+}
