@@ -67,7 +67,8 @@ bert-based method
    merge_nn.sh
 
 At last, you need to run the scirpt ./scripts/preprocess.py to get the total
- adversarial cache under **test set** or **training set** 
+ adversarial cache under **test set** or **training set** (If lacking of some
+  material files, you can find them in the directory **resource/**)
 
 ### adversarial attacking
 
