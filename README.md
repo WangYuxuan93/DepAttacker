@@ -63,7 +63,7 @@ bert-based method
     ./scripts/gen_mlm_cands.sh
     
 + adjust the embedding according to <https://github.com/nmrksic/counter
--fitting> Maybe,you need to compute the similarity Matrix using compute_nn.sh and
+-fitting> . Maybe,you need to compute the similarity Matrix using compute_nn.sh and
    merge_nn.sh
 
 At last, you need to run the scirpt ./scripts/preprocess.py to get the total
